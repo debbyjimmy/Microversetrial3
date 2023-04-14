@@ -15,13 +15,17 @@
 #navbar {
     display: flex;
     justify-content: flex-end;
-    position: fixed;
+    /*position: fixed;*/
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--main-red);
+    background: red;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
+}
+#welcome-section{
+  margin-top: 20px;
+  border: 20px;
 }
 
 /*
