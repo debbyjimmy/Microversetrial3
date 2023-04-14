@@ -1,32 +1,3 @@
-/*#navbar ul li {
-    display: block;
-    margin-bottom: 10px;
-  }
-#navbar {
-  position: fixed;
-  top: 10;
-  left: 0;
-  width: 50%;
-  padding: 100px;
-  
-}
-*/
-
-/*#navbar {
-    display: flex;
-    justify-content: flex-end;
-  */
-    /*position: fixed;*/
-
-/*
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: red;
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-    z-index: 10;
-}
-*/
 #welcome-section{
   display: flex;
   flex-direction: column;
@@ -38,26 +9,35 @@
   color: white;
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
-
-#projects{
-  justify-content: center;
-  align-items: center;
+projects-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: blue;
+}
+.projects-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid white;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
   width: 100%;
-  height: 100vh;
-  background-color: yellow;
-  color: white;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
 }
-
-
-/*
-#navbar ul li {
-    display: flex;
-    margin-right: 2rem;
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
 }
-*/
-
-/* Reset default styles */
+.project {
+  background: var(--main-gray);
+  
+  border-radius: 2px;
+}
 * {
 	margin: 0;
 	padding: 0;
